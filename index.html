@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Edstack</title>
+  <title style="font-family:VastagoGrotesk">Edstack</title>
   <link href="edstackicon.png" rel="icon" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.1/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
@@ -54,77 +54,81 @@
   </div>
   <div id="home" class="hero min-h-3.5 bg-base-200">
     <div class="hero-content text-center">
-      <div class="max-w-md">
-        <h1 class="text-5xl font-bold pb-5">We Help Students</h1>
-        <div>
-          <!-- Component: Slider with indicators inside -->
-          <div class="relative w-full glide-02">
-              <!-- Slides -->
-              <div class="overflow-hidden rounded-[18px]" data-glide-el="track">
-                  <ul class="relative w-full overflow-hidden p-0 whitespace-no-wrap flex flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform]">
-                      <li><!-- Repeat this div for each slide -->
+      <div class="max-w-full">
+        <div class="grid grid-cols-2 gap-4">
+          <div class="flex justify-center items-center">
+            <h1 class="text-5xl font-bold pb-5" style="font-family:VastagoGrotesk">We Help Students</h1>
+          </div>
+          <div>
+            <!-- Component: Slider with indicators inside -->
+            <div class="relative w-full glide-02">
+                <!-- Slides -->
+                <div class="overflow-hidden rounded-[18px]" data-glide-el="track">
+                    <div class="relative w-full overflow-hidden p-0 whitespace-no-wrap flex flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform]">
+                        <div><!-- Repeat this div for each slide -->
+                          <div class="w-full flex-shrink-0 relative">
+                            <img class="w-full h-auto" src="https://images.pexels.com/photos/7394015/pexels-photo-7394015.jpeg" alt="Image 1">
+                            <div class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center">
+                              <!-- Text -->
+                              <p class="text-black text-4xl font-semibold rounded p-1 bg-base-200">Discover</p>
+                            </div>
+                          </div></div>
+                      <div><!-- Repeat this div for each slide -->
                         <div class="w-full flex-shrink-0 relative">
-                          <img class="w-full h-auto" src="https://images.pexels.com/photos/7394015/pexels-photo-7394015.jpeg" alt="Image 1">
+                          <img class="w-full h-auto" src="https://images.pexels.com/photos/5940713/pexels-photo-5940713.jpeg" alt="Image 2">
                           <div class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center">
                             <!-- Text -->
-                            <p class="text-black text-xl font-semibold">Discover</p>
+                            <p class="text-black text-4xl font-semibold rounded p-1 bg-base-200">Learn</p>
                           </div>
-                        </div></li>
-                    <li><!-- Repeat this div for each slide -->
-                      <div class="w-full flex-shrink-0 relative">
-                        <img class="w-full h-auto" src="https://images.pexels.com/photos/5940713/pexels-photo-5940713.jpeg" alt="Image 2">
-                        <div class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center">
-                          <!-- Text -->
-                          <p class="text-black text-xl font-semibold">Learn</p>
-                        </div>
-                      </div></li>
-                    <li><!-- Repeat this div for each slide -->
-                      <div class="w-full flex-shrink-0 relative">
-                        <img class="w-full h-auto" src="https://images.pexels.com/photos/3059750/pexels-photo-3059750.jpeg" alt="Image 3">
-                        <div class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center">
-                          <!-- Text -->
-                          <p class="text-black text-xl font-semibold">Understand</p>
-                        </div>
-                      </div></li>
-                    <li><!-- Repeat this div for each slide -->
-                      <div class="w-full flex-shrink-0 relative">
-                        <img class="w-full h-auto" src="https://img.freepik.com/free-photo/medium-shot-man-with-tablet_23-2149045945.jpg" alt="Image 4">
-                        <div class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center">
-                          <!-- Text -->
-                          <p class="text-black text-xl font-semibold">Examine</p>
-                        </div>
-                      </div></li>
-                  </ul>
-              </div>
-              <!-- Indicators -->
-              <div class="absolute bottom-0 flex items-center justify-center w-full gap-2" data-glide-el="controls[nav]">
-                  <button class="p-4 group" data-glide-dir="=0" aria-label="goto slide 1"><span class="block w-2 h-2 transition-colors duration-300 rounded-full ring-1 ring-slate-700 bg-white/20 focus:outline-none"></span></button>
-                  <button class="p-4 group" data-glide-dir="=1" aria-label="goto slide 2"><span class="block w-2 h-2 transition-colors duration-300 rounded-full ring-1 ring-slate-700 bg-white/20 focus:outline-none"></span></button>
-                  <button class="p-4 group" data-glide-dir="=2" aria-label="goto slide 3"><span class="block w-2 h-2 transition-colors duration-300 rounded-full ring-1 ring-slate-700 bg-white/20 focus:outline-none"></span></button>
-                  <button class="p-4 group" data-glide-dir="=3" aria-label="goto slide 4"><span class="block w-2 h-2 transition-colors duration-300 rounded-full ring-1 ring-slate-700 bg-white/20 focus:outline-none"></span></button>
-              </div>
+                        </div></div>
+                      <div><!-- Repeat this div for each slide -->
+                        <div class="w-full flex-shrink-0 relative">
+                          <img class="w-full h-auto" src="https://images.pexels.com/photos/3059750/pexels-photo-3059750.jpeg" alt="Image 3">
+                          <div class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center">
+                            <!-- Text -->
+                            <p class="text-black text-4xl font-semibold rounded p-1 bg-base-200">Understand</p>
+                          </div>
+                        </div></div>
+                      <div><!-- Repeat this div for each slide -->
+                        <div class="w-full flex-shrink-0 relative">
+                          <img class="w-full h-auto" src="https://img.freepik.com/free-photo/medium-shot-man-with-tablet_23-2149045945.jpg" alt="Image 4">
+                          <div class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center">
+                            <!-- Text -->
+                            <p class="text-black text-4xl font-semibold rounded p-1 bg-base-200">Examine</p>
+                          </div>
+                        </div></div>
+                    </div>
+                </div>
+                <!-- Indicators -->
+                <div class="absolute bottom-0 flex items-center justify-center w-full gap-2" data-glide-el="controls[nav]">
+                    <button class="p-4 group" data-glide-dir="=0" aria-label="goto slide 1"><span class="block w-2 h-2 transition-colors duration-300 rounded-full ring-1 ring-slate-700 bg-white/20 focus:outline-none"></span></button>
+                    <button class="p-4 group" data-glide-dir="=1" aria-label="goto slide 2"><span class="block w-2 h-2 transition-colors duration-300 rounded-full ring-1 ring-slate-700 bg-white/20 focus:outline-none"></span></button>
+                    <button class="p-4 group" data-glide-dir="=2" aria-label="goto slide 3"><span class="block w-2 h-2 transition-colors duration-300 rounded-full ring-1 ring-slate-700 bg-white/20 focus:outline-none"></span></button>
+                    <button class="p-4 group" data-glide-dir="=3" aria-label="goto slide 4"><span class="block w-2 h-2 transition-colors duration-300 rounded-full ring-1 ring-slate-700 bg-white/20 focus:outline-none"></span></button>
+                </div>
+            </div>
+  
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
+  
+            <script>
+                var glide02 = new Glide('.glide-02', {
+                    type: 'slider',
+                    focusAt: 'center',
+                    perView: 1,
+                    autoplay: 3500,
+                    animationDuration: 700,
+                    gap: 0,
+                    classes: {
+                        activeNav: '[&>*]:bg-slate-700',
+                    },
+  
+                });
+  
+                glide02.mount();
+            </script>
+            <!-- End Slider with indicators inside -->
           </div>
-
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
-
-          <script>
-              var glide02 = new Glide('.glide-02', {
-                  type: 'slider',
-                  focusAt: 'center',
-                  perView: 1,
-                  autoplay: 3500,
-                  animationDuration: 700,
-                  gap: 0,
-                  classes: {
-                      activeNav: '[&>*]:bg-slate-700',
-                  },
-
-              });
-
-              glide02.mount();
-          </script>
-          <!-- End Slider with indicators inside -->
-        </div>
+        </div>  
         <div class="pt-10">
           <a href="https://www.youtube.com/@edstackhq" class="btn btn-primary transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-blue-500 duration-300 ...rounded-md text-sm font-semibold shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500">Get Started</a>
         </div>
@@ -133,42 +137,42 @@
   </div>
   <div id="about" class="flex flex-col w-full">
     <div class="text-center grid bg-base-300 border-t-4 place-items-center p-10">
-      <h2 class="text-5xl font-bold">About Us</h2>
-      <p class="p-5" style="font-family:Satoshi">
-        Edstack is an innovative educational platform dedicated to empowering undergraduate students to excel academically and achieve their full potential. 
-
-      Edstack aims to revolutionize the way students learn by providing free, high-quality video tutorials and personalized support.
+      <h2 class="text-5xl font-bold" style="font-family:VastagoGrotesk">About Us</h2>
+      <p class="p-5 text-lg" style="font-family:Satoshi">
+        Edstack is an innovative educational platform dedicated to empowering undergraduate students to excel academically and achieve their full potential.
+<br>
+<br>We aim to revolutionize the way students learn by providing free, high-quality video tutorials and personalized support.
       </p>
     </div>
     <div id="explore" class="text-center grid bg-base-300 border-t-4 place-items-center p-10">
-      <h2 class="min-w-md text-5xl font-bold">Join Our Community!</h2>
-      <p class="p-5" style="font-family:Satoshi">
-        Connect with fellow learners and educators in our vibrant community. Collaborate, discuss, and grow together towards academic success.
+      <h2 class="min-w-md text-5xl font-bold" style="font-family:VastagoGrotesk">Join Our Community!</h2>
+      <p class="p-5 text-lg" style="font-family:Satoshi">
+        Connect with fellow learners and educators in our vibrant community.<br>Collaborate, discuss, and grow together towards academic success.
       </p>
     </div> 
     <div class="text-center grid bg-base-300 pb-10 place-items-center">
-      <h2 class="min-w-md text-5xl font-bold">Explore Our YouTube Channel!</h2>
-      <p class="p-5" style="font-family:Satoshi">
+      <h2 class="min-w-md text-5xl font-bold" style="font-family:VastagoGrotesk">Explore Our YouTube Channel!</h2>
+      <p class="p-5 text-lg" style="font-family:Satoshi">
         Visit our YouTube channel for educational content! 
-        Access high-quality video tutorials. Subscribe to stay updated and enhance your learning experience. Let's learn together!
+        Access high-quality video tutorials. <br>Subscribe to stay updated and enhance your learning experience. Let's learn together!
       </p>
       <iframe class=rounded-box width="560" height="315" src="https://www.youtube.com/embed/ICfx8PC4HLk?si=wIewqBve74r1r6r1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
   </div>
   <footer class="footer p-10 bg-base-200 border-t-4 text-base-content">
     <div>
-      <h6 class="footer-title">Vision</h6> 
-      <p style="font-family:Satoshi">Our vision at Edstack is to empower every undergraduate student with the resources and support they need to achieve academic excellence and unlock their full potential.</p>
+      <h6 class="footer-title" style="font-family:VastagoGrotesk">Vision</h6> 
+      <p class="text-base" style="font-family:Satoshi">Our vision at Edstack is to empower every undergraduate student with the resources and support they need to achieve academic excellence and unlock their full potential.</p>
     </div> 
     <div>
-      <h6 class="footer-title">Mission</h6> 
-      <p style="font-family:Satoshi">Edstack is on a mission to transform the Nigerian undergraduate learning experience by providing a free, accessible, and interactive online platform that fosters independent learning, peer-to-peer collaboration, and academic excellence.</p>
+      <h6 class="footer-title" style="font-family:VastagoGrotesk">Mission</h6> 
+      <p class="text-base" style="font-family:Satoshi">Edstack is on a mission to transform the Nigerian undergraduate learning experience by providing a free, accessible, and interactive online platform that fosters independent learning, peer-to-peer collaboration, and academic excellence.</p>
     </div>
   </footer> 
   <footer class="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
     <aside class=" items-center grid-flow-col">
       <img width="48" height="48" src="https://drive.google.com/thumbnail?id=1xUXSiZRwkWrH0KE25JNYvBAyVWHpodp4">
-      <p style="font-family:Satoshi">Edstack Digital Ltd. <br>Empowering students to achieve academic excellence</p>
+      <p class="text-sm" style="font-family:Satoshi">Edstack Digital Ltd. <br>Empowering students to achieve academic excellence</p>
     </aside> 
     <nav class="md:place-self-center md:justify-self-end">
       <div class="grid grid-flow-col gap-4">
