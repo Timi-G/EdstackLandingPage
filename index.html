@@ -3,8 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Edstack</title>
+  <link href="favicon.ico" rel="icon" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.1/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
@@ -18,9 +19,9 @@
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
         </div>
         <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-          <li><a href="#home">Homepage</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#explore">Explore</a></li>
+          <li><a class="text-zinc-400" href="#home">Homepage</a></li>
+          <li><a class="text-zinc-400" href="#about">About Us</a></li>
+          <li><a class="text-zinc-400" href="#explore">Explore</a></li>
         </ul>
       </div>
     </div>
@@ -50,8 +51,8 @@
       </div>
     </div>
     </div>
-  </div id="about">
-  <div class="hero min-h-screen bg-base-200">
+  </div>
+  <div id="home" class="hero min-h-3.5 bg-base-200">
     <div class="hero-content text-center">
       <div class="max-w-md">
         <h1 class="text-5xl font-bold pb-5">We Help Students</h1>
@@ -66,7 +67,7 @@
                           <img class="w-full h-auto" src="https://images.pexels.com/photos/7394015/pexels-photo-7394015.jpeg" alt="Image 1">
                           <div class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center">
                             <!-- Text -->
-                            <p class="text-white text-xl font-semibold">Discover</p>
+                            <p class="text-black text-xl font-semibold">Discover</p>
                           </div>
                         </div></li>
                     <li><!-- Repeat this div for each slide -->
@@ -74,7 +75,7 @@
                         <img class="w-full h-auto" src="https://images.pexels.com/photos/5940713/pexels-photo-5940713.jpeg" alt="Image 2">
                         <div class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center">
                           <!-- Text -->
-                          <p class="text-white text-xl font-semibold">Learn</p>
+                          <p class="text-black text-xl font-semibold">Learn</p>
                         </div>
                       </div></li>
                     <li><!-- Repeat this div for each slide -->
@@ -82,7 +83,7 @@
                         <img class="w-full h-auto" src="https://images.pexels.com/photos/3059750/pexels-photo-3059750.jpeg" alt="Image 3">
                         <div class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center">
                           <!-- Text -->
-                          <p class="text-white text-xl font-semibold">Understand</p>
+                          <p class="text-black text-xl font-semibold">Understand</p>
                         </div>
                       </div></li>
                     <li><!-- Repeat this div for each slide -->
@@ -90,7 +91,7 @@
                         <img class="w-full h-auto" src="https://img.freepik.com/free-photo/medium-shot-man-with-tablet_23-2149045945.jpg" alt="Image 4">
                         <div class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center">
                           <!-- Text -->
-                          <p class="text-white text-xl font-semibold">Examine</p>
+                          <p class="text-black text-xl font-semibold">Examine</p>
                         </div>
                       </div></li>
                   </ul>
@@ -125,7 +126,7 @@
           <!-- End Slider with indicators inside -->
         </div>
         <div class="pt-10">
-          <button href="https://www.youtube.com/@edstackhq" class="btn btn-primary transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-blue-500 duration-300 ...">Get Started</button>
+          <a href="https://www.youtube.com/@edstackhq" class="btn btn-primary transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-blue-500 duration-300 ...rounded-md text-sm font-semibold shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500">Get Started</a>
         </div>
       </div>
     </div>
